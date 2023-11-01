@@ -1,0 +1,12 @@
+body {
+  background-color: hsl(27, 66%, 92%);
+}
+
+.spend-header {
+  background-color: hsl(10, 79%, 65%);
+}
+
+.balance-heading,
+.balance {
+  color: white;
+}
