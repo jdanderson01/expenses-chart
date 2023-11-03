@@ -4,9 +4,19 @@ body {
 
 .spend-header {
   background-color: hsl(10, 79%, 65%);
+  max-width: 30%;
+  margin: 0 auto;
+  border-radius: 0.7em;
 }
 
-.balance-heading,
+.balance-heading {
+  color: white;
+  padding: 0.3em;
+  margin-left: 0.5em;
+}
 .balance {
   color: white;
+  padding: 0.3em;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
 }
