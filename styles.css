@@ -1,5 +1,6 @@
 body {
   background-color: hsl(27, 66%, 92%);
+  font-size: 18px;
 }
 
 .spend-header {
@@ -19,4 +20,32 @@ body {
   padding: 0.3em;
   margin-left: 1em;
   margin-bottom: 0.5em;
+}
+
+.spend-chart {
+  background-color: #fff;
+  max-width: 30%;
+  margin: 0 auto;
+  border-radius: 0.5em;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .spend-header {
+    max-width: 70%;
+    margin: 0 auto;
+    border-radius: 0.7em;
+  }
+
+  .balance-heading {
+    font-size: 1.2em;
+  }
+
+  .balance {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
 }

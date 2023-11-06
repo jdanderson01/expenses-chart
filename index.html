@@ -12,7 +12,13 @@
       href="./images/favicon-32x32.png"
     />
 
+    <script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+
     <link rel="stylesheet" href="styles.css" />
+
+    <script src="script.js" async defer></script>
 
     <title>Frontend Mentor | Expenses chart component</title>
     </style>
@@ -24,7 +30,8 @@
     </section>
 
     <section class="spend-chart">
-      Spending - Last 7 days mon tue wed thu fri sat sun Total this month
+      Spending - Last 7 days
+      <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
       $478.33 +2.4% from last month
     </section>
 
