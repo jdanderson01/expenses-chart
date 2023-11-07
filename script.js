@@ -7,7 +7,7 @@ fetch("data.json")
     const labels = data.map((item) => item.day);
     const amounts = data.map((item) => item.amount);
 
-    const myChart = new Chart("myChart", {
+    new Chart(chartCanvas, {
       type: "bar",
       data: {
         labels: labels,
@@ -15,9 +15,10 @@ fetch("data.json")
           {
             label: "Amount",
             data: amounts,
-            backgroundColor: "rgba(255, 99, 132, 0.2)",
-            borderColor: "rgba(255, 99, 132, 1)",
+            backgroundColor: "hsl(10, 79%, 65%)",
             borderWidth: 1,
+            borderRadius: 5,
+            bordrSkipped: false,
           },
         ],
       },
