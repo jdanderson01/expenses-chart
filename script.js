@@ -35,7 +35,17 @@ fetch("data.json")
       options: {
         scales: {
           y: {
-            beginAtZero: true,
+            display: false,
+          },
+          x: {
+            grid: {
+              display: false,
+            },
+          },
+        },
+        plugins: {
+          legend: {
+            display: false,
           },
         },
       },
